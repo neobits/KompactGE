@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Core\Init\Init_GLEW.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Init\Init_GLUT.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\ModelManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\SceneManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Managers\ShaderManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Models\Cube.cpp">
+      <Filter>Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Models\Model.cpp">
+      <Filter>Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Models\Quad.cpp">
+      <Filter>Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Models\Triangle.cpp">
+      <Filter>Rendering\Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Init\ContextInfo.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Init\DebugOutput.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Init\FrameBufferInfo.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Init\IListener.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Init\Init_GLEW.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Init\Init_GLUT.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\IGameObject.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\ModelManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\SceneManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Managers\ShaderManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Init\WindowInfoh.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\VertexFormat.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Models\Cube.h">
+      <Filter>Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Models\Model.h">
+      <Filter>Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Models\Quad.h">
+      <Filter>Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Models\Triangle.h">
+      <Filter>Rendering\Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Shaders\FragmentShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\VertexShader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{140de188-94e6-41a8-8f64-e86170568cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{77bf5582-e878-4e00-b7fd-c9b40ae8c99d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{8b4ebf77-448a-44ff-bc1f-0ffc33e9bf6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{cbbcb485-9065-42e1-811d-1222fa909eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Models">
+      <UniqueIdentifier>{0569b045-32a3-4f91-8101-0ca7bacd456e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
