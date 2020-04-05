@@ -1,3 +1,10 @@
+//
+//  Init_GLEW.cpp
+//  KompactGameEngine
+//
+//  Created by Angelo Moro on 06/11/2015
+//
+
 #include "Init_GLEW.h"
 using namespace Core;
 using namespace Core::Initialize;

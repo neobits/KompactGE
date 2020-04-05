@@ -1,3 +1,10 @@
+//
+//  VertexFormat.h
+//  KompactGameEngine
+//
+//  Created by Angelo Moro on 06/11/2015
+//
+
 #ifndef VertexFormat_H_
 #define VertexFormat_H_
 

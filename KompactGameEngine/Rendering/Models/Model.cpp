@@ -1,3 +1,10 @@
+//
+//  Model.cpp
+//  KompactGameEngine
+//
+//  Created by Angelo Moro on 06/11/2015
+//
+
 #include "Model.h"
 using namespace Rendering;
 using namespace Models;
@@ -18,6 +25,6 @@ const std::vector<GLuint>& Model::GetVBOs() const { return VBOs; }
 void Model::Destroy()
 {
 	glDeleteVertexArrays(1, &VAO);
-	glDeleteBuffers(VBOs.size(), &VBOs[0]);
+	glDeleteBuffers((int)VBOs.size(), &VBOs[0]);
 	VBOs.clear();
 }

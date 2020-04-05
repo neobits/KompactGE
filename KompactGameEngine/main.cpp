@@ -1,3 +1,10 @@
+//
+//  main.cpp
+//  KompactGameEngine
+//
+//  Created by Angelo Moro on 06/11/2015
+//
+
 #pragma once
 #include "Core\Init\Init_GLUT.h"
 #include "Managers\SceneManager.h"

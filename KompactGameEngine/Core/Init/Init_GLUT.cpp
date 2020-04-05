@@ -1,3 +1,10 @@
+//
+//  Init_GLUT.cpp
+//  KompactGameEngine
+//
+//  Created by Angelo Moro on 06/11/2015
+//
+
 #include "Init_GLUT.h"
 
 using namespace Core::Initialize;

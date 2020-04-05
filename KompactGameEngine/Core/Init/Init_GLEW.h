@@ -1,3 +1,10 @@
+//
+//  Init_GLEW.h
+//  KompactGameEngine
+//
+//  Created by Angelo Moro on 06/11/2015
+//
+
 #pragma once
 #include <iostream>
 #include "../../Dependencies/glew/glew.h"

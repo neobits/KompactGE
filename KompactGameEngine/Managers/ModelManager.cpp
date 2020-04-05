@@ -1,3 +1,10 @@
+//
+//  ModelManager.cpp
+//  KompactGameEngine
+//
+//  Created by Angelo Moro on 06/11/2015
+//
+
 #include "ModelManager.h"
 using namespace Managers;
 using namespace Rendering;

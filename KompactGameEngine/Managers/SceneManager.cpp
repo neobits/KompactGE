@@ -1,3 +1,10 @@
+//
+//  SceneManager.cpp
+//  KompactGameEngine
+//
+//  Created by Angelo Moro on 06/11/2015
+//
+
 #include "SceneManager.h"
 using namespace Managers;
 

@@ -1,3 +1,10 @@
+//
+//  Cube.cpp
+//  KompactGameEngine
+//
+//  Created by Angelo Moro on 06/11/2015
+//
+
 #include "Cube.h"
 using namespace Rendering;
 using namespace Models;

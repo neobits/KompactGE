@@ -1,3 +1,10 @@
+//
+//  FrameBufferInfo.h
+//  KompactGameEngine
+//
+//  Created by Angelo Moro on 06/11/2015
+//
+
 #pragma once
 
 #include "../../Dependencies/glew/glew.h"
