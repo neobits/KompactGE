@@ -1,8 +1,8 @@
 # KompactGE
 
-This game engine is an exercise based on Create a Game Engine series from Sergiu Craitoiu.
+This game engine is an exercise based on Create a Game Engine series from Sergiu Craitoiu, and was done in late 2015.
 
-The project can be seen as a "marter class" on computer game engine programming, so no added features or code.
+The project should be seen as a "marter class" on computer game engine programming, so no added features or code.
 
 ## References
 
